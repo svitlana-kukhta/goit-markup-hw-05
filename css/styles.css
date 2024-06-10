@@ -501,10 +501,8 @@ p {margin-top: 0;
                 letter-spacing: 0.04em;
                 color: #8e8f99;}
 .modal-check:checked {background-color: #404bbf;}
-.modal-check:checked + .modal-check-mark {
-                        background-color: #404bbf;
-                        border: 1px solid #404bbf;
-                        fill: #f4f4fd;
+.modal-check:checked + .modal-check-text span {background-color: #404bbf;
+                        fill: #F4F4FD;
                         border: none;}
 .modal-check-text {font-weight: 400;
                 font-size: 12px;
@@ -520,6 +518,7 @@ p {margin-top: 0;
                 margin-right: 12px;
                 border-radius: 2px;
                 border: 1px solid rgba(46, 47, 66, 0.4);
+                outline: transparent;
                 fill: transparent;
                 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .privacy-policy {display: block;
