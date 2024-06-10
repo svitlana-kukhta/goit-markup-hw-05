@@ -459,8 +459,9 @@ p {margin-top: 0;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         display: block;
         margin-bottom: 4px;}
+.modal-input:focus {border-color: #4D5AE5;}       
 .modal-input:focus + .modal-icon {border-color: #4D5AE5;
-        fill: #4D5AE5;}
+                                fill: #4D5AE5;}
 .modal-field-wrap {position: relative;}
 .modal-field-comment {margin-bottom: 16px;}
 .modal-icon {fill: #2e2f42;
@@ -499,7 +500,8 @@ p {margin-top: 0;
                 line-height: 1.16667;
                 letter-spacing: 0.04em;
                 color: #8e8f99;}
-.modal-check:checked + .modal-check-mark {border-radius: 2px;
+.modal-check:checked {background-color: #404bbf;}
+.modal-check:checked + .modal-check-mark {
                         background-color: #404bbf;
                         border: 1px solid #404bbf;
                         fill: #f4f4fd;
@@ -511,15 +513,15 @@ p {margin-top: 0;
                 color: #8e8f99;
                 display: flex;}
 .modal-check-mark {width: 16px;
-                        height: 16px;
-                        display: inline-flex;
-                        align-items: center;
-                        justify-content: center;
-                        margin-right: 12px;
-                        border-radius: 2px;
-                        border: 1px solid rgba(46, 47, 66, 0.4);
-                        fill: transparent;
-                        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+                height: 16px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 12px;
+                border-radius: 2px;
+                border: 1px solid rgba(46, 47, 66, 0.4);
+                fill: transparent;
+                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .privacy-policy {display: block;
                 margin-left: 4px;
                 line-height: 1.33;
